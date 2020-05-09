@@ -1,0 +1,21 @@
+body {
+    font: {
+        family: Tahoma;
+        size: 16px;
+    }
+
+    ul, ol {
+        list-style: none;
+        padding: 0;
+    }
+
+    .clearfix {
+        clear: both;
+    }
+
+    .text-center-xs {
+        @media #{$maxMobile} {
+            text-align: center;
+        }
+    }
+}
